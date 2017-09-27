@@ -1,29 +1,26 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "declanvk.github.io",
+  "description": "Declan Kelly's personal website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Declan Kelly <dkelly.home@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.45",
     "gatsby-link": "^1.6.17",
-    "gatsby-plugin-react-helmet": "^1.0.5"
+    "gatsby-plugin-catch-links": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^1.0.6",
+    "gatsby-source-filesystem": "^1.5.1",
+    "gatsby-transformer-remark": "^1.7.12"
   },
-  "devDependency": {
-    "gh-pages": "^1.0.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build && gh-pages -d public --branch master"
   },
   "devDependencies": {
+    "gh-pages": "1.0.0",
     "prettier": "^1.6.1"
   }
 }
